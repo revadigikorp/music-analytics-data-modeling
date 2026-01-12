@@ -1,0 +1,198 @@
+{
+  "overview": {
+    "total_users": 1,
+    "total_songs": 2,
+    "total_artists": 2,
+    "total_songplays": 4,
+    "total_listening_minutes": 12.8
+  },
+  "topSongs": [
+    {
+      "title": "The Ocean",
+      "artist": "Gipsy Kings",
+      "plays": 2
+    },
+    {
+      "title": "Soul Deep",
+      "artist": "The Box Tops",
+      "plays": 2
+    }
+  ],
+  "topArtists": [
+    {
+      "name": "Gipsy Kings",
+      "plays": 2
+    },
+    {
+      "name": "The Box Tops",
+      "plays": 2
+    }
+  ],
+  "hourlyActivity": [
+    {
+      "hour": 0,
+      "plays": 0
+    },
+    {
+      "hour": 1,
+      "plays": 0
+    },
+    {
+      "hour": 2,
+      "plays": 0
+    },
+    {
+      "hour": 3,
+      "plays": 0
+    },
+    {
+      "hour": 4,
+      "plays": 0
+    },
+    {
+      "hour": 5,
+      "plays": 0
+    },
+    {
+      "hour": 6,
+      "plays": 0
+    },
+    {
+      "hour": 7,
+      "plays": 0
+    },
+    {
+      "hour": 8,
+      "plays": 0
+    },
+    {
+      "hour": 9,
+      "plays": 0
+    },
+    {
+      "hour": 10,
+      "plays": 0
+    },
+    {
+      "hour": 11,
+      "plays": 0
+    },
+    {
+      "hour": 12,
+      "plays": 0
+    },
+    {
+      "hour": 13,
+      "plays": 0
+    },
+    {
+      "hour": 14,
+      "plays": 0
+    },
+    {
+      "hour": 15,
+      "plays": 0
+    },
+    {
+      "hour": 16,
+      "plays": 0
+    },
+    {
+      "hour": 17,
+      "plays": 0
+    },
+    {
+      "hour": 18,
+      "plays": 0
+    },
+    {
+      "hour": 19,
+      "plays": 0
+    },
+    {
+      "hour": 20,
+      "plays": 0
+    },
+    {
+      "hour": 21,
+      "plays": 4
+    },
+    {
+      "hour": 22,
+      "plays": 0
+    },
+    {
+      "hour": 23,
+      "plays": 0
+    }
+  ],
+  "dailyActivity": [
+    {
+      "day": "Monday",
+      "plays": 0
+    },
+    {
+      "day": "Tuesday",
+      "plays": 0
+    },
+    {
+      "day": "Wednesday",
+      "plays": 0
+    },
+    {
+      "day": "Thursday",
+      "plays": 4
+    },
+    {
+      "day": "Friday",
+      "plays": 0
+    },
+    {
+      "day": "Saturday",
+      "plays": 0
+    },
+    {
+      "day": "Sunday",
+      "plays": 0
+    }
+  ],
+  "userLevels": [
+    {
+      "level": "Free",
+      "count": 1
+    }
+  ],
+  "topLocations": [
+    {
+      "location": "Phoenix-Mesa-Scottsdale, AZ",
+      "plays": 4
+    }
+  ],
+  "recentActivity": [
+    {
+      "time": "2018-11-01 21:05",
+      "user": "Kaylee Summers",
+      "song": "Soul Deep",
+      "artist": "The Box Tops"
+    },
+    {
+      "time": "2018-11-01 21:05",
+      "user": "Kaylee Summers",
+      "song": "Soul Deep",
+      "artist": "The Box Tops"
+    },
+    {
+      "time": "2018-11-01 21:01",
+      "user": "Kaylee Summers",
+      "song": "The Ocean",
+      "artist": "Gipsy Kings"
+    },
+    {
+      "time": "2018-11-01 21:01",
+      "user": "Kaylee Summers",
+      "song": "The Ocean",
+      "artist": "Gipsy Kings"
+    }
+  ],
+  "generatedAt": "2026-01-12T13:35:05.435951"
+}

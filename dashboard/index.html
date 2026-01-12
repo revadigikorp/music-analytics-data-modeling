@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎵</span>
+                    <h1>Music Analytics</h1>
+                </div>
+                <div class="header-meta">
+                    <span id="lastUpdated">Loading...</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Stats Cards -->
+            <section class="stats-grid">
+                <div class="stat-card" id="card-users">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="totalUsers">-</span>
+                        <span class="stat-label">Total Users</span>
+                    </div>
+                </div>
+                <div class="stat-card" id="card-songs">
+                    <div class="stat-icon">🎵</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="totalSongs">-</span>
+                        <span class="stat-label">Songs</span>
+                    </div>
+                </div>
+                <div class="stat-card" id="card-artists">
+                    <div class="stat-icon">🎤</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="totalArtists">-</span>
+                        <span class="stat-label">Artists</span>
+                    </div>
+                </div>
+                <div class="stat-card" id="card-plays">
+                    <div class="stat-icon">▶️</div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="totalPlays">-</span>
+                        <span class="stat-label">Total Plays</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Row 1 -->
+            <section class="charts-row">
+                <div class="chart-card large">
+                    <h3>📈 Hourly Listening Activity</h3>
+                    <canvas id="hourlyChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>📊 Subscription Levels</h3>
+                    <canvas id="levelsChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Charts Row 2 -->
+            <section class="charts-row">
+                <div class="chart-card">
+                    <h3>🏆 Top Songs</h3>
+                    <div class="list-container" id="topSongsList">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <h3>🎤 Top Artists</h3>
+                    <div class="list-container" id="topArtistsList">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                <div class="chart-card">
+                    <h3>📍 Top Locations</h3>
+                    <div class="list-container" id="topLocationsList">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Daily Activity -->
+            <section class="charts-row">
+                <div class="chart-card full-width">
+                    <h3>📅 Weekly Activity Pattern</h3>
+                    <canvas id="dailyChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Recent Activity -->
+            <section class="activity-section">
+                <div class="chart-card full-width">
+                    <h3>🕐 Recent Activity</h3>
+                    <table class="activity-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>User</th>
+                                <th>Song</th>
+                                <th>Artist</th>
+                            </tr>
+                        </thead>
+                        <tbody id="recentActivityBody">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Music Analytics Dashboard • Built with ❤️ by DigiKorp</p>
+        </footer>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
